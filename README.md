@@ -65,6 +65,15 @@ pip install -r requirements.txt
 python app.py
 ```
 
+```bash
+If the file is downloaded then open anaconda prompt open this file location
+run python app.py
+
+Preferred versions
+Anaconda - 23.3.1
+Python - 3.11.9
+```
+
 Open:
 http://127.0.0.1:5000/
 
