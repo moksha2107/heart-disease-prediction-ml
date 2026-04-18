@@ -68,11 +68,6 @@ python app.py
 Open:
 http://127.0.0.1:5000/
 
-## Contributors
-
-* Anish Bonda
-* Gangasani Moksha Reddy
-* A L N V Vinay
 
 ## Future Improvements
 
