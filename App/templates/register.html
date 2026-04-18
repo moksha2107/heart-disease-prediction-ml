@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- 
+   Template Name: medicate
+   Version: 1.0.0
+   Author:  Webstrot
+   -->
+<!--[if IE 8]> 
+<html lang="en" class="ie8 no-js">
+   <![endif]-->
+   <!--[if IE 9]> 
+   <html lang="en" class="ie9 no-js">
+      <![endif]-->
+      <!--[if !IE]><!-->
+      <html lang="zxx" dir="ltr">
+         <!--[endif]-->
+         <head>
+            <meta charset="utf-8" />
+            <title>Register</title>
+            <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+            <!--Template style -->
+            <link rel="stylesheet" type="text/css" href="static/css/animate.css" />
+            <link rel="stylesheet" type="text/css" href="static/css/animate.min.css" />
+            <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
+            <link rel="stylesheet" type="text/css" href="static/css/fonts.css" />
+            <link rel="stylesheet" type="text/css" href="static/css/font-awesome.css" />
+            <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css" />
+            <link rel="stylesheet" type="text/css" href="static/css/magnific-popup.css" />
+            <link rel="stylesheet" type="text/css" href="static/css/owl.carousel.min.css" />
+            <link rel="stylesheet" type="text/css" href="static/css/owl.theme.default.min.css" />
+            <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+            <link rel="stylesheet" type="text/css" href="static/css/responsive.css" />
+            <!--favicon-->
+            <link rel="shortcut icon" type="image/png" href="static/images/fav-icon.png" />
+         </head>
+         <body>
+            <div class="login-main-wrapper">
+               <div class="container-fluid">
+                  <div class="row align-items-center">
+                     <div class="col-lg-6 col-md-12 col-12 p-0">
+                        <div class="form-sidebar">
+                           <div class="logo-section">
+                              <img src="static/images/whitelogo.png" alt="img">
+                           </div>
+                           <div class="form-image d-xl-block d-lg-block d-none">
+                              <img src="static/images/form-img.png"  alt="img">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-12 col-12 p-0">
+                        <div class="login-main">
+                           <form action="/signup" method="GET">
+                              <h4>Register Now</h4>
+                              <p class="mb-3">Register by entering the information below</p>
+                              <div class="mt-2">
+                                 <input type="text" class="my-width" placeholder="UserName*" name="user" required pattern="[A-Za-z].{6,}" title="Six or more Uppercase and lowercase letter req.">
+                              </div>
+                              <div class="mt-2">
+                                 <input type="text" class="my-width" placeholder="Name*" required>
+                              </div>
+                              <div class="mt-2">
+                                 <input type="text" class="my-width" placeholder="Email*" name="email" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                              </div>
+                              <div class="mt-2">
+                                 <input type="text" class="my-width" placeholder="PhoneNumber*" name="mobile" required pattern="[6-9]{1}[0-9]{9}" title="Phone number with 7-9 and remaing 9 digit with 0-9">
+                              </div>
+                              <div class="mt-2">
+                                 <input type="password" class="my-width" placeholder="Password*" name="password" required autocomplete="off" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+                              </div>
+                              
+                              
+                              <button type="submit" class="button-btn mt-4 text-capitalize">Register
+                              <span><i class="fas fa-angle-double-right"></i></span>
+                              </button>
+
+                              <p class="mt-2">Already have an Account. <a href="/login" class="text-color-pink">Login Now</a></p>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Side Panel -->
+            <script src="static/js/jquery-3.6.0.min.js"></script>
+            <script src="static/js/bootstrap.min.js"></script>
+            <script src="static/js/wow.js"></script>
+            <script src="static/js/jquery.magnific-popup.js"></script>
+            <script src="static/js/owl.carousel.min.js"></script>
+            <script src="static/js/contact_form.js"></script>
+            <script src="static/js/custom.js"></script>
+            <!-- custom js-->
+            <script>
+               wow = new WOW(
+                   {
+                       animateClass: 'animated',
+                       offset: 100,
+                       callback: function (box) {
+                           console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+                       }
+                   }
+               );
+               wow.init();
+            </script>
+         </body>
+      </html>
